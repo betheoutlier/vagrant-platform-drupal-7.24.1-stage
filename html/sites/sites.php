@@ -43,8 +43,12 @@ $sites = array (
   'outlier.com' => 'outlier.com'
   'outlier.dev.iamanoutlier.com' => 'outlier.com'
   'outlier.test.iamanoutlier.com' => 'outlier.com'
+  'www.outlier.dev.iamanoutlier.com' => 'outlier.com'
+  'www.outlier.test.iamanoutlier.com' => 'outlier.com'
   'us.dev.iamanoutlier.com' => 'outlier.com'
   'us.test.iamanoutlier.com' => 'outlier.com'
+  'www.us.dev.iamanoutlier.com' => 'outlier.com'
+  'www.us.test.iamanoutlier.com' => 'outlier.com'
   'local.outlier.com' => 'outlier.com'
   
   'www.phamepdx.org' => 'phamepdx.org',
@@ -55,4 +59,6 @@ $sites = array (
   'local.phamepdx.com' => 'phamepdx.org',
   'phamepdx.dev.iamanoutlier.com' => 'phamepdx.org'
   'phamepdx.test.iamanoutlier.com' => 'phamepdx.org'
+  'www.phamepdx.dev.iamanoutlier.com' => 'phamepdx.org'
+  'www.phamepdx.test.iamanoutlier.com' => 'phamepdx.org'
 );
