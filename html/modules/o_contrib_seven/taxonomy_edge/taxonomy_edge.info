@@ -1,0 +1,18 @@
+name = Taxonomy Edge
+description = Edge lists for taxonomies
+package = Taxonomy
+core = 7.x
+
+dependencies[] = taxonomy
+configure = admin/structure/taxonomy/edge
+
+files[] = tests/tree.test
+files[] = tests/unit.test
+
+
+; Information added by drupal.org packaging script on 2013-10-19
+version = "7.x-1.8+3-dev"
+core = "7.x"
+project = "taxonomy_edge"
+datestamp = "1382145975"
+

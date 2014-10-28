@@ -1,0 +1,12 @@
+name = Views 404
+description = "Return 404 if the path doesn't match the view path."
+package = Views
+core = 7.x
+dependencies[] = views
+
+; Information added by drupal.org packaging script on 2013-10-19
+version = "7.x-1.x-dev"
+core = "7.x"
+project = "views404"
+datestamp = "1382152094"
+

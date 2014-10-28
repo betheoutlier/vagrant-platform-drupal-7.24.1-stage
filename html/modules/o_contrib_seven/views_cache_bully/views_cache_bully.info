@@ -1,0 +1,14 @@
+name=Views Cache Bully
+description="Forcibily cache all views, come hell or high water."
+core=7.x
+package=views
+
+files[] = views_cache_bully.views.inc
+dependencies[] = views
+
+; Information added by drupal.org packaging script on 2013-10-19
+version = "7.x-3.0+4-dev"
+core = "7.x"
+project = "views_cache_bully"
+datestamp = "1382152423"
+
