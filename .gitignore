@@ -1,0 +1,46 @@
+.DS_Store
+html/sites/
+!html/sites/default/
+!html/sites/all/
+!html/README.vagrant
+
+# OS generated files #
+######################
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+.bash_history
+=======
+.DS_Store
+drushrc.php
+.gitignore
+
+### Ignore Files starting with .
+.jshintrc
+.*
+!/.gitignore
+
+### Drupal template
+# Ignore configuration files that may contain sensitive information.
+html/sites/*/*drushrc*.php
+
+# Ignore paths that contain generated content.
+.idea
+.idea/*
+.sasscache
+.sasscache/*
+
+# Ignore default text files
+html/robots.txt
+html/CHANGELOG.txt
+html/COPYRIGHT.txt
+html/INSTALL*.txt
+html/LICENSE.txt
+html/MAINTAINERS.txt
+html/UPGRADE.txt
+html/README.txt
+html/sites/all/README.txt
+html/sites/all/modules/README.txt
+html/sites/all/themes/README.txt
+

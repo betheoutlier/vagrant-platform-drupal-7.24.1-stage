@@ -1,0 +1,10 @@
+# Typical Configuration Vars Below
+
+hostname: 'www.example.com'
+ip: '192.168.25.25' #If you change this, external mysql connections will be disabled until ./projectProvision/my.cnf is updated. You must update the bind-address. 
+
+dbHost: "localhost"
+dbName: "project"
+dbUser: "root"
+dbPass: "pass"
+dbRootPass: "pass" #Can't be Blank For Some Reason
